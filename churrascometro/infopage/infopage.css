@@ -1,0 +1,140 @@
+body{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top-bar{
+    font-size: 35px;
+    color: aliceblue;
+    background-color: #333;
+    font-weight: bold;
+     text-align: center;
+     padding: 22px;
+     border-bottom: 5px solid rgb(238, 166, 32);
+}
+.container{
+    margin: auto;
+    max-width: 70%;
+
+    
+}
+
+.h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.h2{
+    color: rgb(112, 112, 112);
+    font-weight: normal;  
+    font-size: 24px;
+    display: flex;
+    text-align: justify;
+    letter-spacing: normal;
+    word-spacing: none;
+} 
+.byAuthor{
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+.small{
+    color: rgb(211, 211, 211);
+    
+}
+.icons{
+ width: 35px;
+ height: 35px;
+ display: flex;
+ padding-right: 40px;
+ padding-inline-end: 20px;
+ margin-top: 12px;
+ margin-left: 0;
+ margin-right: 0;
+ margin-bottom: 40px;
+
+
+ 
+}
+.contentI{
+    margin: auto;
+    max-width: 700px; 
+}
+.content2{
+    margin: auto;
+    max-width: 700px; 
+}
+ 
+.h3{
+    
+    color: rgb(112, 112, 112);
+    font-weight: normal;
+    font-size: 25px;
+    padding-top: 38px;
+    line-height: 35px;
+    font-family: Arial, Helvetica;
+}
+.link{
+    color: rgb(238, 166, 32);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: justify;
+
+ }
+ figure>img{
+    padding-top: 25px;
+    width: 100%;
+    padding-bottom: 15px;
+ }
+  /* .img1{
+    width: 700px;
+    height: 500px;
+     margin: auto;
+     padding-top: 30px;
+     padding-bottom: 20px;
+  } */
+  .small{
+    color: #555;
+  }
+  .seclink{
+    font-size: 24px;
+     font-weight: normal;
+     color: rgb(112, 112, 112);
+     text-align: center;
+  }
+.link2{
+    color: rgb(238, 166, 32);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;color: rgb(238, 166, 32);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+.sech3{
+    color: rgb(112, 112, 112);
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: Arial, Helvetica;
+    max-width: 700px;
+    margin: auto;
+}
+.lastText{
+    color: rgb(112, 112, 112);
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: Arial, Helvetica;
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.footer{
+    background-color: #333;
+    height: 60px;
+    padding-top: 20px;
+}

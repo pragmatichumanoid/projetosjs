@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 950px;
+    margin: auto;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+} 
+#face{
+    width: 370px;
+    height: 460px;
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+header{
+    background-color: rgb(112, 217, 243);
+    text-align: center;
+    color: white;
+    padding: 8px;
+    
+}
+.title{
+
+    font-size: 26px;
+
+
+}
+section{
+    color: black;
+    padding: 20px;
+    background-image: url(./people.jpgs);
+    background-size: cover;
+    overflow: hidden;
+}
+.formcontainer{
+    max-width: 230px;
+    background-color:rgba(255, 255, 255, 0.884);
+    padding: 18px;
+    float: right;
+    
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    
+    color: white;
+    background-color: rgb(100, 200, 224);
+    font-weight: bold;
+    
+}
+input[type="submit"]:active{
+    background-color: rgba(0, 115, 168, 0.781);
+    font-weight: bold;
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 210px;
+    background-position-y: center;
+}
+.picture{
+    width: 200px;
+}
+footer{
+    background-color: rgb(36, 36, 36);
+    padding: 40px;
+    text-align: center;
+    
+}
+.descript{
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+    
+}
+.descript p, .descript h3{
+    margin-bottom: 20px;
+}
+.descript h3{
+    font-size: 25px;
+}
+
+ @media screen and (max-width:830px){
+    .title{
+        font-size: 24px;
+    }
+ }
+ @media screen and (max-width:770px){
+    .title{
+        font-size: 22px;
+    }
+ }
+ @media screen and (max-width:530px){
+    .title{
+        font-size: 21px;
+    }
+    footer{
+        padding: 20px;
+        text-align: center;
+    }
+ }
+ .lis, .list1, .list2{
+    list-style-type: none;
+    color:  rgba(240, 248, 255, 0.705);
+    font-size: 10px;
+    text-align: left;
+    padding-left: 3px;
+    padding-bottom: 2px;
+ }
+ 
+ .infos h4{
+    color: rgba(240, 248, 255, 0.705);
+    font-size: 10px;
+    text-align: left;
+    font-weight: bold;
+    margin: 2px;
+    padding-left: 2px;
+    
+
+ }
+ 
+

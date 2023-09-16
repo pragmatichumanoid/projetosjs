@@ -1,0 +1,47 @@
+body{
+    background-image: url(./churrasco.jpg);
+    
+}
+.header{
+    text-align: center;
+    
+}
+.h1{
+    color: white;
+    text-shadow: 2px 2px 3px rgb(170, 149, 104);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15px;
+
+}
+
+.churrascometro{
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(228, 222, 170);
+    height: 200px;
+    padding-top: 40px;
+    border-radius: 3px;
+}
+input{
+    width: 300px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+#button{
+    width: 100px;
+    border-radius: 30px;
+    border: 0;
+    background-color: rgb(163, 112, 0);
+    color: antiquewhite;
+}
+#button:active{
+    background-color: rgb(180, 90, 0);
+}
+#resultado{
+    font-family: Tahoma, sans-serif;
+    color: antiquewhite;
+    font-weight: bold;
+
+}
